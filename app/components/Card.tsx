@@ -24,7 +24,10 @@ export const Card = function (props: AppInfo) {
           </span>
           {props.platform.map((platform) => {
             return (
-              <span className="text-[10px] inline-flex items-center font-bold leading-sm px-1.5 text-black/70 dark:text-black rounded-lg bg-sky-100/90 dark:bg-sky-200">
+              <span
+                key={platform}
+                className="text-[10px] inline-flex items-center font-bold leading-sm px-1.5 text-black/70 dark:text-black rounded-lg bg-sky-100/90 dark:bg-sky-200"
+              >
                 {platform}
               </span>
             );

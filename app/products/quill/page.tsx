@@ -11,6 +11,7 @@ export default function QuillApp() {
           {QuillAppInfo.downloadLinks.map((downloadLink) => {
             return (
               <a
+                key={downloadLink.url}
                 href={downloadLink.url}
                 className="hover:text-primary-400 dark:text-primary-400 dark:hover:text-primary-200"
                 target="_blank"
