@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start -p 9000",
+    "lint": "next lint",
+    "pm2:server": "pm2 start npm --name apps-all -- run start"
   },
   "dependencies": {
     "lucide-react": "^0.396.0",
