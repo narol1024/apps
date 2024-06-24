@@ -1,3 +1,3 @@
 # Apps Hall
 
-You can experience it here: https://apps-jade.vercel.app/home
+You can experience it here: https://narol.pro/apps
