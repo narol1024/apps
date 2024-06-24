@@ -21,7 +21,7 @@ export const QuillAppInfo = {
   icon: quillIcon.src,
   price: 0,
   descriptions: "基于GPT大模型, 呼之即出的交互，能够让你快速优化英语句子。",
-  website: "/products/quill",
+  website: "./products/quill",
   platform: ["Mac"],
   screenshots: [
     "https://narol-blog.oss-cn-beijing.aliyuncs.com/blog-img/202406230953822.gif",
@@ -40,7 +40,7 @@ export const SikgongAppInfo = {
   chineseAppName: "识讲",
   icon: sikgongIcon.src,
   descriptions: "基于GPT大模型, 支持用粤语对话。",
-  website: "/products/sikgong",
+  website: "./products/sikgong",
   price: 0,
   platform: ["iOS", "Android"],
   screenshots: [
@@ -77,7 +77,7 @@ export const WeiboCopilotAppInfo = {
   icon: weiboCopilotIcon.src,
   price: 0,
   descriptions: "一个新浪微博的辅助工具",
-  website: "/products/weibo-copilot",
+  website: "./products/weibo-copilot",
   platform: ["Windows", "Mac"],
   screenshots: [
     "https://narol-blog.oss-cn-beijing.aliyuncs.com/blog-img/202406222249510.png",

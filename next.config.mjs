@@ -1,14 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  async redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/home",
-        permanent: true,
-      },
-    ];
-  },
-};
+const nextConfig =
+  process.env.buildEnv === "static"
+    ? {
+        basePath: "/apps",
+        output: "export",
+      }
+    : {};
 
 export default nextConfig;

@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:static": "buildEnv=static next build",
+    "deploy:static": "node scripts/deploy-static.js",
     "start": "next start -p 9000",
-    "lint": "next lint",
-    "pm2:server": "pm2 start npm --name apps-all -- run start"
+    "lint": "next lint"
   },
   "dependencies": {
     "lucide-react": "^0.396.0",
@@ -19,9 +20,11 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "dotenv": "^16.4.5",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
     "postcss": "^8",
+    "sftp-sync-deploy": "^0.7.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

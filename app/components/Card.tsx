@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { AppInfo } from "../apps";
 
 export const Card = function (props: AppInfo) {
@@ -8,7 +7,7 @@ export const Card = function (props: AppInfo) {
       className="flex py-6 px-2 sm:p-6 bg-white dark:bg-black/20 sm:rounded-xl shadow-md dark:shadow-lg hover:shadow-xl dark:hover:sm:shadow-indigo-500/20 transition duration-500 dark:sm:border dark:border-slate-800"
     >
       <div className="flex-initial flex-shrink-0 justify-center mr-2 sm:mr-3">
-        <Image src={props.icon} alt="Vercel Logo" width="128" height="128" />
+        <img src={props.icon} alt="Vercel Logo" width="128" height="128" />
       </div>
       <div className="flex flex-col justify-center my-3 mr-2 sm:mt-[-1px] gap-2">
         <div className="mb-0.5 text-2xl sm:text-3xl font-bold">
