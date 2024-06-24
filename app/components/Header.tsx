@@ -1,4 +1,4 @@
-import { Github, Home } from "lucide-react";
+import { Github } from "lucide-react";
 
 interface HeaderProps {
   isHome?: boolean;
@@ -15,7 +15,7 @@ export const Header = function (props: HeaderProps) {
           <div className="flex justify-between">
             {!props.isHome && (
               <a
-                href="/home"
+                href="/apps"
                 className="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
               >
                 <span className="text-2xl bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
