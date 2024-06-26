@@ -30,7 +30,7 @@ export const QuillAppInfo = {
   downloadLinks: [
     {
       title: "DMG安装包",
-      url: "https://www.dropbox.com/scl/fi/kpzqgvcynauduj350vwul/Quill.dmg?rlkey=80f1fl51legmk63ciasb62iuk&st=xlnr91js&dl=0",
+      url: "https://www.dropbox.com/scl/fi/px7m4taevd6ljk3cpw8b6/Quill.dmg?rlkey=6ihk74cv5je6intq657kuoy5e&st=2aofmm0o&dl=0",
     },
   ],
 } as AppInfo;
